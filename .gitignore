@@ -1,0 +1,7 @@
+.vs/
+AspNetServer/obj/
+AspNetServer/bin/
+AspNetClient/bin/
+Shared/bin/
+Shared/obj/
+AspNetClient/obj/

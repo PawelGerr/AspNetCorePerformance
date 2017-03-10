@@ -80,7 +80,7 @@ namespace AspNetClient
 				{
 					using (var response = await client.PostAsync("Upload", content))
 					{
-						await response.Content.ReadAsStringAsync();
+						response.EnsureSuccessStatusCode();
 					}
 				}
 
